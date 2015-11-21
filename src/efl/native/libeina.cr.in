@@ -1,0 +1,4 @@
+@[Include("eina-1/Eina.h", flags: "-I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina -I /usr/lib/clang/3.7.0/include", prefix: %w(eina_))]
+@[Link("eina")]
+lib LibEina
+end
