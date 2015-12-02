@@ -1,2 +1,2 @@
 [updater]
-        updater.full_deps = 1
+        full_deps = 1
