@@ -1,1 +1,1 @@
-: foreach *.cr.in |> sh -c "crystal_lib %f > %o" |> %B
+: foreach *.cr.in |> crystal_lib -o %o %f |> %B
